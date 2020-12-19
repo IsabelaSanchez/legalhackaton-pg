@@ -1,0 +1,52 @@
+.created-training-information{
+    border-top: solid;
+    border-bottom: solid;
+    border-color: $black;
+    display: flex;
+    width: 57em;
+    font-weight: bold;
+    padding-top: 15px;
+}
+.created-training-little-card{
+    text-decoration: none;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid $blue;
+    background-color: $white;
+    width: 870px;
+    height: 60px;
+    font-size: 10px;
+    margin: 7px;
+    font-weight: 700;
+    padding: 10px;
+    box-shadow: 2px 2px 5px #999;
+    transition: all 1s ease;
+}
+.created-training-little-card:hover{
+    color: $white;
+    background: $yellow;
+}
+.created-training-little-text{
+    display:flex;
+}
+
+.created-training-yearname{
+    font-size: 15px;
+    padding-right: 420px;
+}
+.created-training-people{
+    font-size: 15px;
+}
+.new-training-style1{
+    color: #333333;
+    font-size: 15px;
+    padding-left: 220px;
+    padding-right: 285px;
+}
+.new-training-h2-style2{
+    color: $black;
+    font-size: 15px;
+}

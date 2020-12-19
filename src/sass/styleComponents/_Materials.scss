@@ -1,0 +1,71 @@
+.materials{
+    display: flex;
+    align-items: center;
+}
+.materials-card{
+    margin-left: 8%;
+    margin-right: 8%;
+    background-color: $white;
+    border-radius: 20px;
+    display: flex;
+    box-shadow: 2px 2px 5px #999;
+}
+.materials-card-header{
+    display: flex;
+    font-size: 12px;
+    font-weight: bold;
+    width: 40%;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.materials-card-header-little-section{
+    display: -webkit-inline-box;
+}
+.material-card-back-button{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.materials-card-body{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+.materials-card-information{
+    display: flex;
+    justify-content: space-between;
+}
+.materials-card-materia-div{
+    display: flex;
+    background-color: $grey;
+    width: 57em;
+    height: 13em;
+    padding: 10px;
+}
+.fiscal-year-card-div{
+    background-color: $grey;
+    width: 57em;
+    height: 13em;
+    padding: 10px;
+}
+.material-button{
+    display: flex;
+    width: 13em;
+    padding: 5%;
+    text-decoration: none;
+    background-color: $blue;
+    border: transparent;
+    color:$white;
+    border-radius:5px;
+    box-shadow: 2px 2px 5px #999;
+    transition: all 1s ease;
+}
+.material-button:hover{
+    background-color: $skyblue;
+    color:$white;
+}
+.button-material-text{
+    margin:auto;
+    font-weight: bold;
+}
